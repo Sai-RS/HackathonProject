@@ -69,7 +69,7 @@ public class Homepage extends BasePage{
 	}
 	
 	public void adsClose() throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.switchTo().frame(switch_frame);
 		ads_close.click();
 		

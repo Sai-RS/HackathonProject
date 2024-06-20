@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-				features={".//Features/TS_001.feature",".//Features/TS_002.feature",".//Features/TS_003.feature"},
-//				features= {".//Features/TS_004(5)_DDTest.feature"},
+//				features={".//Features/TS_001.feature",".//Features/TS_002.feature"},
+				features= {".//Features/TS_004_DD.feature"},
 //		features= {".//Features/DDTest.feature"},
 //							features= {"@target/rerun.txt"},
 					glue="stepDefinitions",

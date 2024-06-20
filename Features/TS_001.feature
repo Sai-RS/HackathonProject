@@ -9,7 +9,7 @@ Feature: Verify the Search Functionality of Cab
     And user click the One-Way cab
     When user enter from "Delhi"
     And user enter to "Manali, Himachal Pradesh"
-    And user enter Departure "Jun 21 2024"
+    And user enter Departure "Jul 21 2024"
     And user enter Pickup Time-Hours "6"
     And user enter Pickup Time-Min "30"
     And user enter Pickup Time-Meridiam "AM"

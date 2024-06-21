@@ -3,8 +3,8 @@ Feature: Verify the Search Functionality of Cab
   @smoke
   Scenario: Successful of Search
     Given the user navigates to page
-    Then user close the Ads
-    Then user close the login/signup
+    #Then user close the Ads
+    #Then user close the login/signup
     And user click on hotels option.
     When user enter City, Property Name Or Location(value="Manali").
     And user Select a valid date from CHECK-IN(value="Jul 13 2024")

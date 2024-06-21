@@ -3,8 +3,8 @@ Feature: gift cards
   @smoke
   Scenario: verification of invalid inputs
     Given the user navigates to page
-    Then user close the Ads
-    Then user close the login/signup
+    #Then user close the Ads
+    #Then user close the login/signup
     And user click the Cab icon
     And Click on Search button
     When the user clicks on more options
